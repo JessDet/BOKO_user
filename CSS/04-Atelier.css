@@ -1,0 +1,67 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+      
+  }
+
+  
+main{
+    margin-top: 200px;
+    margin-bottom: 100px;
+    font-size: 20px;
+    
+    
+}
+
+h1{
+    text-align: center;
+    margin-bottom: 5%;
+    font-weight: normal;
+}
+
+.atelier_presentation {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.atelier {
+    width: 400px;
+    margin-right: 15%;
+}
+
+.detail_atelier {
+    width: 60%;
+    height: 60%;
+    border: solid #B4AAA1 2px;
+    background: #f6f5f7;
+    margin: 10%;
+    margin-left: 10rem;
+}
+
+
+.bloc_detail_atelier {
+    background: #b4aaa198;
+    
+}
+
+.bloc_agenda {
+    width: 500px;
+    height: 20rem;
+    background: #B4AAA1;
+    margin-left: 30%;
+    margin-top: 5rem;
+    margin-bottom: 10%;
+}
+
+.facebook {
+    /* display: flex; */
+    /* justify-content: center; */
+    margin-left: 20%;
+}
+
+/* -----------------------------Responsive */
+@media (min-width:320px) and (max-width:767.98px) {
+    
+}
+

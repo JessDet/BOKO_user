@@ -1,0 +1,71 @@
+
+*{
+	margin: 0;padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	margin-top: 10%;
+	background : #f6f5f7;
+}
+
+h2{
+	font-family: 'Allison', cursive;
+}
+
+/* .container {
+	display: flex;
+	flex-direction:column;
+	align-items: center;
+	justify-content: space between;
+} */
+
+.titre {
+	text-align: center;
+}
+
+p {
+	line-height: 20px;
+	letter-spacing: 0.5px;
+}
+
+button {
+	border-radius: 20px;
+	border: 1px solid #b4aaa1;
+	background-color: #b4aaa1;
+	color: #FFFFFF;
+	font-size: 12px;
+	font-weight: bold;
+	padding: 12px 45px;
+	letter-spacing: 1px;
+	cursor: pointer;
+	width: 325px;height: 30px;	
+	
+}
+
+input{
+	width: 325px;
+	height: 30px;
+}
+
+.title-signin {
+	margin-top: 5%;
+    height: 150px;
+	margin-left: 5%;
+}
+
+.inscription {
+    display: flex;
+    flex-direction: column;
+	justify-content: space-evenly;
+    align-items: center;
+	height: 150px;
+}
+
+.registration{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+	align-items: center;
+	height: 200px;
+}

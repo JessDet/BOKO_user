@@ -1,0 +1,74 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    box-sizing: border-box;     
+  }
+
+  #btn-return {
+    /* display: flex; */
+    position: fixed;
+    top: 0 ;
+    z-index: 1;
+    cursor: pointer;
+    margin-top: 120px;
+  }
+
+ 
+main {
+    height: auto;
+    width: 100%;
+    margin-top: 120px;
+    margin-bottom: 200px;
+    color: #474544;
+}
+
+
+.timing_recipe{
+    text-align: center;
+    margin-bottom: 100px;
+    font-family: 'Allison', cursive;
+    font-size: 50px;
+    color: #474544;
+    height: 30px;
+}
+
+
+.articles_container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    margin-left: 12%;
+    
+}
+
+.articles_container .article {
+    margin: 40px 40px;
+    background-color: white;
+    border: 1px solid #b4b4b4 ;
+    width: 300px;
+    height: 550px;
+    box-shadow: 0 2px 25px 2px #b4aaa1, 0 2px 50px 2px #b4aaa1, 0 0 100px 3px #b4aaa138;
+}
+
+.articles_container .article img {
+    width: 80%;
+    margin: 20px 10%;
+}
+
+.articles_container .article h2{
+    text-align: center;
+    font-size: 20px;
+    width: 80%;
+    margin-left: 10% ;
+}
+
+.articles_container .article>p {
+    text-align: center;
+    width: 250px;
+    margin: 10px 10%;
+}
+
+
+
+ 

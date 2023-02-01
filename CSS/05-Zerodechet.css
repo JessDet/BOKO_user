@@ -1,0 +1,208 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif; 
+    color: #474544;
+  }
+
+
+main{
+    margin-top: 3%;
+    font-size: 18px;
+}
+
+main .container1 {
+    display: flex;
+    align-items: center;
+}
+
+.background{
+    background-image: url(/IMG/081021/Etale\ 2.jpg);
+    background-size: cover;
+    height: 1500px;
+
+}
+
+.contenu {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+
+}
+
+h2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Allison', cursive;
+    font-size: 50px;
+}
+
+p {
+    color: black
+}
+
+.container1{
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    justify-content: space-evenly;
+    background-color: #b4aaa1;
+    opacity: 0.8;
+    border : 1px solid #b4aaa1;
+    margin-top: 15%;
+    
+
+}
+
+.z-d{
+    /* width: 500px; */
+    margin-bottom: 50px;
+    margin-left: 10rem;
+    margin-right: 10rem;
+}
+
+
+.container2{
+    margin-top: 5em;
+}
+.container2 h3{
+    color: black;
+}
+
+
+.txt1{
+    width: 30%;
+    margin-left: 5%;
+}
+.parag1 h3 p {
+    display: flex;
+    flex-direction: column;
+}
+.parag1 {
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.img1 {
+    width:60em;
+    height: 800px;
+    background-color: #b4aaa13b;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+.parag2 {
+    /* margin-top: 300px; */
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+    align-items: center;
+    }
+.parag2 h3 p{
+    display: flex;
+    flex-direction: column;  
+}
+.txt2{
+    width: 30%;
+    margin-right: 20%;
+    margin-left: 5%;
+}
+.img2 {
+    width:50%;
+    height: 900px;
+    background-color: #b4aaa13b;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.lign_img_before_footer{
+    margin-top: 5em;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #f6f5f7;
+    height: 300px;
+}
+
+#img_before_footer {
+    width: 200px;
+    height: 200px;
+}
+
+
+/* ---------------RESPONSIVE------------- */
+@media (min-width:320px) and (max-width:767.98px) { 
+main {
+    margin-top: 200px;
+}
+
+.z-d{
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+
+h2{
+    text-align: center;
+}
+.container2 {
+    margin-top: 60%;
+}
+
+.parag1{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;   
+}
+.txt1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 70%;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+
+.img1{
+height: 600px;
+transition: all .5s ease-in-out;
+}
+.vrac {
+    width: 400px;
+    transition: all .5s ease-in-out;
+}
+
+
+.parag2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+.txt2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 70%;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+.img2{
+    width: 100%;
+    height: 500px;
+    transition: all .5s ease-in-out;
+    }
+.consign {
+    width: 400px;
+    transition: all .5s ease-in-out;
+}
+
+}
